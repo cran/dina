@@ -1,0 +1,14 @@
+4c159c84c7c1e69f637d440df424fcba *DESCRIPTION
+b0b568d5490c0527d2cd399fd623223a *NAMESPACE
+f5f5df77e3bfec3e02706f29d1520ce1 *R/RcppExports.R
+2aad12261ea035b1a202bb362de3ec64 *R/dina-internal.R
+48e4d08dc499f6b7012f31313a367029 *man/DINA_Gibbs.Rd
+19a120162836386df7ffd8c0cf5ea0a9 *man/DINAsim.Rd
+9bb7e457d7cc7ef3826fd56a2886abfd *man/dina-package.Rd
+1a46c97df9a723b0fbf05df037368543 *man/rDirichlet.Rd
+0b22e8adbd24cf30db4150ba703cd8f2 *man/rmultinomial.Rd
+00575fc0c810cb87a5a0bdbda5bcc614 *man/update_alpha.Rd
+ba4d896461b74740b4438b61c31e91fe *man/update_sg.Rd
+fdab36890b6e55261ab6baee96576ca3 *src/DINAcpp101315.cpp
+2a6f9e9e044a78154d3cfda5936d6f48 *src/Makevars
+711c7e708c9070dbd88b2c663f9f0540 *src/RcppExports.cpp
