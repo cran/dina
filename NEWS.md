@@ -1,3 +1,27 @@
+# dina 2.0.2
+
+## Changes
+
+- Added explicit dependencies on R (>= 4.3.0), Rcpp (>= 1.1.0), and RcppArmadillo (>= 15.0.2-2)
+- Removed CXX11 from `src/Makevars` and `src/Makevars.win` to avoid potential compilation issues
+  with newer versions of Armadillo through RcppArmadillo.
+- Switched README.Rmd to README.qmd to use Quarto for rendering.
+- Fixed CITATION file to use `c()` instead of `personList()` and `bibentry()` to
+  avoid CRAN check notes.
+- Updated GitHub Action workflows.
+
+# dina 2.0.1
+
+## Documentation
+
+- Added a `pkgdown` website that deploys to <https://tmsalab.github.io/dina/>
+- Remove manual escape of `%` as it is auto-escaped by `roxygen2` v7.0.0.
+- Update README
+
+## Deployment
+
+- Changed from Travis-CI to GitHub Actions ([#7](https://github.com/tmsalab/dina/pull/7))
+
 # dina 2.0.0
 
 ## API Breakage
