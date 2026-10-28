@@ -1,7 +1,7 @@
 Package: dina
 Type: Package
 Title: Bayesian Estimation of DINA Model
-Version: 2.0.2
+Version: 2.0.3
 Authors@R: c(
              person("Steven Andrew", "Culpepper", 
                     email = "sculpepp@illinois.edu",
@@ -27,11 +27,11 @@ Suggests: CDM, covr, testthat
 RoxygenNote: 7.3.3
 Encoding: UTF-8
 NeedsCompilation: yes
-Packaged: 2025-09-28 02:08:58 UTC; ronin
+Packaged: 2026-10-28 12:47:58 UTC; ronin
 Author: Steven Andrew Culpepper [aut, cph] (ORCID:
     <https://orcid.org/0000-0003-4226-6176>),
   James Joseph Balamuta [aut, cre] (ORCID:
     <https://orcid.org/0000-0003-2826-8458>)
 Maintainer: James Joseph Balamuta <balamut2@illinois.edu>
 Repository: CRAN
-Date/Publication: 2025-09-28 02:20:02 UTC
+Date/Publication: 2026-10-28 13:50:10 UTC

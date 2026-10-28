@@ -56,16 +56,19 @@ Rcpp::List update_alpha(const arma::mat &Amat, const arma::mat &Q,
                     arma::dot(Q.row(j), Q.row(j))) {
                     etaij = 0.0;
                 }
-                if (etaij == 1.0 and Y(i, j) == 1.0) {
-                    PYCS(c) = (1.0 - ss(j)) * PYCS(c);
-                }
-                if (etaij == 0.0 and Y(i, j) == 1.0) {
-                    PYCS(c) = gs(j) * PYCS(c);
-                }
-                if (etaij == 1.0 and Y(i, j) == 0.0) {
-                    PYCS(c) = ss(j) * PYCS(c);
-                } else {
-                    PYCS(c) = (1.0 - gs(j)) * PYCS(c);
+
+                if (etaij == 1.0) {
+                    if (Y(i, j) == 1.0) {
+                        PYCS(c) *= (1.0 - ss(j));
+                    } else if (Y(i, j) == 0.0) {
+                        PYCS(c) *= ss(j);
+                    }
+                } else { // etaij == 0.0
+                    if (Y(i, j) == 1.0) {
+                        PYCS(c) *= gs(j);
+                    } else if (Y(i, j) == 0.0) {
+                        PYCS(c) *= (1.0 - gs(j));
+                    }
                 }
             }
         }

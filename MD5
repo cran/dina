@@ -1,11 +1,11 @@
-fe16d951e60c256c47de45dc445a08f8 *DESCRIPTION
+6d29db864c6031d09b40dcc2f6a22b46 *DESCRIPTION
 00e70daee127cd1b6c8f8b10b9809cd7 *NAMESPACE
-bafc009b501637ed1a01e01325f34d7b *NEWS.md
+1f214678f107e58cf7e78dea1c1d43ee *NEWS.md
 c42e79eef1c8a02cbdcf2f2d9dc5b656 *R/RcppExports.R
 a577a3f39a2749f5220173f94ca4b634 *R/dina-est.R
 a0d44504cc217277bfd6eaa251810a61 *R/dina-package.R
 a5e42535e7fc03eea80793bbfb55e6d8 *README.md
-1bf18d9c216b8d95033f0bd2fe2906b2 *build/partial.rdb
+21c9401b8c07f38d762ade4612fc4ffe *build/partial.rdb
 20c63e40d106008d490e04aa4c467ceb *inst/CITATION
 bdc4a784e0ab5bd53e8c7067f1be2ec6 *man/DINA_Gibbs.Rd
 2a4c338d3c532f24c19b0a519f3928d5 *man/dina-package.Rd
@@ -13,6 +13,6 @@ bdc4a784e0ab5bd53e8c7067f1be2ec6 *man/DINA_Gibbs.Rd
 ab1649a1854be47c9fa3f59013ebe008 *src/Makevars
 ab1649a1854be47c9fa3f59013ebe008 *src/Makevars.win
 9210961e7fde3fd24a2e50b470cdb63a *src/RcppExports.cpp
-73ee622633f8afa206130f773ceee3e6 *src/dina-estimation-routine.cpp
+22951b4d34c481223365a185313bc8bc *src/dina-estimation-routine.cpp
 6995f259fa67ae033272997a54283d46 *tests/testthat.R
 a53119898ec40442eb337175e8d9dfb3 *tests/testthat/test-dina-model.R
